@@ -157,7 +157,7 @@
   display: inline-block;
   width: 20px; /* Width of your icon */
   height: 20px; /* Height of your icon */
-  background-image: url('img/chat_2.png');
+  background-image: url("img/chat_2.png");
   background-size: cover;
   /* Additional styling as needed */
 }

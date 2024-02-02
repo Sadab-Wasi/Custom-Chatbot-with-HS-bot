@@ -177,14 +177,22 @@ $("#main-chat-btn").click(function () {
   if (!channel_active) {
     $("#main-chat-menu").show();
     channel_active = true;
-    select_curr = "hs_bot";
 
     $("#main-chat-btn-icon").removeClass("fa-message");
     $("#main-chat-btn-icon").addClass("fa-xmark");
     $("#main-chat-btn_text").hide();
 
     if (!first_count) {
-      click_time("hs_bot");
+      if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+        $("#btn_wa_chat").click();
+        click_time("wa_bot");
+        select_curr = "wa_bot";
+      } else {
+        $("#btn_hs_chat").click();
+        click_time("hs_bot");
+        select_curr = "hs_bot";
+      }
+
       first_count = true;
 
       $(".not_mail").show();
@@ -280,7 +288,6 @@ function send_to_hubspot() {
   })
     .then((response) => response.json())
     .then((data) => {
-
       $(".is_mail").hide();
       $("#talk_go").hide();
       $("#is_mail_sent").show();
@@ -290,7 +297,7 @@ function send_to_hubspot() {
         $(".is_mail").show();
         $("#talk_go").show();
         $("#is_mail_sent").hide();
-      }, 5*1000);
+      }, 5 * 1000);
     })
     .catch((error) => {
       console.error("error");
