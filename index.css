@@ -2,7 +2,7 @@
   z-index: 1 !important;
 }
 
-#main-chat-btn_text {
+/* #main-chat-btn_text {
   position: fixed;
   bottom: 25px;
   right: 90px;
@@ -21,7 +21,7 @@
   border-radius: 20px;
   transition: 1s ease;
   z-index: 2;
-}
+} */
 
 #main-chat-btn {
   position: fixed;

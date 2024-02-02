@@ -180,7 +180,7 @@ $("#main-chat-btn").click(function () {
 
     $("#main-chat-btn-icon").removeClass("fa-message");
     $("#main-chat-btn-icon").addClass("fa-xmark");
-    $("#main-chat-btn_text").hide();
+    // $("#main-chat-btn_text").hide();
 
     if (!first_count) {
       if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
@@ -205,7 +205,7 @@ $("#main-chat-btn").click(function () {
 
     $("#main-chat-btn-icon").removeClass("fa-message");
     $("#main-chat-btn-icon").addClass("fa-xmark");
-    $("#main-chat-btn_text").hide();
+    // $("#main-chat-btn_text").hide();
 
     second_hs = true;
     click_time("hs_bot2");
@@ -216,14 +216,14 @@ $("#main-chat-btn").click(function () {
 
     $("#main-chat-btn-icon").addClass("fa-message");
     $("#main-chat-btn-icon").removeClass("fa-xmark");
-    $("#main-chat-btn_text").show();
+    // $("#main-chat-btn_text").show();
   } else if (channel_active == "em_bot") {
     channel_active = true;
     select_curr = false;
 
     $("#main-chat-btn-icon").addClass("fa-message");
     $("#main-chat-btn-icon").removeClass("fa-xmark");
-    $("#main-chat-btn_text").show();
+    // $("#main-chat-btn_text").show();
   } else {
     $("#main-chat-menu").hide();
     channel_active = false;
@@ -231,7 +231,7 @@ $("#main-chat-btn").click(function () {
 
     $("#main-chat-btn-icon").addClass("fa-message");
     $("#main-chat-btn-icon").removeClass("fa-xmark");
-    $("#main-chat-btn_text").show();
+    // $("#main-chat-btn_text").show();
   }
 });
 
