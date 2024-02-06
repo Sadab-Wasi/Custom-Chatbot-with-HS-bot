@@ -165,7 +165,7 @@ $("#talk_go").click(function () {
     $("#main-chat-btn-icon").addClass("fa-xmark");
 
     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-      $("#main-chat-btn").css({ bottom: "auto", top: "5px", right: "25px" });
+      $("#main-chat-btn").css({ bottom: "auto", top: "5px", right: "20px" });
     } else {
       $("#main-chat-btn").css({ top: "auto", bottom: "10px", right: "10px" });
     }
