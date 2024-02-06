@@ -165,9 +165,9 @@ $("#talk_go").click(function () {
     $("#main-chat-btn-icon").addClass("fa-xmark");
 
     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-      $("#main-chat-btn").css({ bottom: "auto", top: "5px", right: "10px" });
+      $("#main-chat-btn").css({ bottom: "auto", top: "0px", height: "60px" });
     } else {
-      $("#main-chat-btn").css({ top: "auto", bottom: "10px", right: "10px" });
+      $("#main-chat-btn").css({ top: "auto", bottom: "10px", height: "70px" });
     }
   } else if (select_curr == "wa_bot") {
     window.open("https://api.whatsapp.com/send?phone=+8801648914767");
@@ -214,7 +214,7 @@ $("#main-chat-btn").click(function () {
     // $("#main-chat-btn_text").hide();
 
     // --- for Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini
-    $("#main-chat-btn").css({ top: "auto", bottom: "10px", right: "10px" });
+    $("#main-chat-btn").css({ top: "auto", bottom: "10px", height: "70px" });
 
     second_hs = true;
     click_time("hs_bot2");
