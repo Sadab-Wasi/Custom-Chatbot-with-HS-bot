@@ -236,7 +236,7 @@ $("#main-chat-btn").click(function () {
   } else {
     $("#main-chat-menu").hide();
     channel_active = false;
-    select_curr = false;
+    // select_curr = false;
 
     $("#main-chat-btn-icon").addClass("fa-message");
     $("#main-chat-btn-icon").removeClass("fa-xmark");
