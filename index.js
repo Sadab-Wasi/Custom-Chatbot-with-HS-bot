@@ -313,3 +313,10 @@ function send_to_hubspot() {
       console.error(error);
     });
 }
+
+if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+  $("#main-chat-menu").css({ width: "330px" });
+}
+else {
+  $("#main-chat-menu").css({ width: "376px" });
+}
