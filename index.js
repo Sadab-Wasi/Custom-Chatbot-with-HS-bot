@@ -19,7 +19,11 @@ function widget_ready() {
   });
 }
 
-function chatbot_start() {}
+function chatbot_start() {
+  window.HubSpotConversations.on("widgetClosed", (event) => {
+    $("#main-chat-menu").css({ "z-index": 2 });
+  });
+}
 
 var channel_active = false;
 
@@ -160,6 +164,7 @@ $(".btn_chat").click(function () {
 $("#talk_go").click(function () {
   if (select_curr == "hs_bot") {
     window.HubSpotConversations.widget.open();
+    $("#main-chat-menu").css({ "z-index": 0 });
     channel_active = "hs_bot";
     $("#main-chat-btn-icon").removeClass("fa-message");
     $("#main-chat-btn-icon").addClass("fa-xmark");
