@@ -95,8 +95,8 @@ $(".btn_chat").click(function () {
     $("#talk_icn1").show();
     $("#talk_icn1_icon").hide();
     // $("#talk_icn2").attr("src", "./img/person_1.png");
-    $("#talk_msg").html("Hi! Welcome to Trengo 😁. Let us help you to find the right information or team member. Please click on <strong>'start conversation'</strong>.");
-    $("#talk_go").text("Start conversation");
+    $("#talk_msg").html("Hoi! Welkom bij PinkCube 😁. Laat ons u helpen om de juiste informatie of het juiste teamlid te vinden. Klik op <strong>'start gesprek'</strong>.");
+    $("#talk_go").text("Start gesprek 💬");
     $("#talk_go").css({ color: "#000", "background-color": "transparent" });
 
     select_curr = "hs_bot";
@@ -108,7 +108,7 @@ $(".btn_chat").click(function () {
 
     if (second_hs) {
       //   $("#open_again2").html(temp_html());
-      $("#talk_go").text("Restart conversation");
+      $("#talk_go").text("Herstart het gesprek 💬");
     }
   }
   if (wa_bot) {
@@ -123,7 +123,7 @@ $(".btn_chat").click(function () {
     $("#talk_icn1").hide();
     $("#talk_icn1_icon").show();
     // $("#talk_icn2").attr("src", "./img/person_1.png");
-    $("#talk_msg").text("Reach us on WhatsApp! Start a conversation using the button below and we will try to reply as soon as possible.");
+    $("#talk_msg").text("Bereik ons op WhatsApp! Start een gesprek via onderstaande knop en wij proberen zo snel mogelijk te reageren.");
     $("#talk_go").text("Open WhatsApp 💬");
     $("#talk_go").css({ color: "#000", "background-color": "transparent" });
 
@@ -148,8 +148,8 @@ $(".btn_chat").click(function () {
     $("#talk_icn1").show();
     $("#talk_icn1_icon").hide();
     // $("#talk_icn2").attr("src", "./img/person_1.png");
-    $("#talk_msg").html("Hi! Welcome to Trengo 😁. Let us help you to find the right information or team member. Please click on <strong>'start conversation'</strong>.");
-    $("#talk_go").text("Send");
+    $("#talk_msg").html("Hoi! Welkom bij PinkCube 😁. Laat ons u helpen om de juiste informatie of het juiste teamlid te vinden. Klik op <strong>'start gesprek'</strong>.");
+    $("#talk_go").text("Versturen");
     $("#talk_go").css({ color: "#fff", "background-color": "#DE469C" });
 
     select_curr = "em_bot";
@@ -223,7 +223,7 @@ $("#main-chat-btn").click(function () {
 
     second_hs = true;
     click_time("hs_bot2");
-    $("#talk_go").text("Restart conversation");
+    $("#talk_go").text("Herstart het gesprek 💬");
   } else if (channel_active == "wa_bot") {
     channel_active = true;
     select_curr = false;
