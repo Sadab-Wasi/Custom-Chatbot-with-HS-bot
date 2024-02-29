@@ -91,7 +91,7 @@ $(".btn_chat").click(function () {
     $(".fa-whatsapp").css({ color: "gray", "border-color": "white" });
     $(".fa-envelope").css({ color: "gray", "border-color": "white" });
 
-    $("#talk_icn1").attr("src", "./img/person_1.png");
+    // $("#talk_icn1").attr("src", "./img/person_1.png");
     $("#talk_icn1").show();
     $("#talk_icn1_icon").hide();
     // $("#talk_icn2").attr("src", "./img/person_1.png");
@@ -119,7 +119,7 @@ $(".btn_chat").click(function () {
     $(".fa-whatsapp").css({ color: "#DE469C", "border-color": "#DE469C" });
     $(".fa-envelope").css({ color: "gray", "border-color": "white" });
 
-    $("#talk_icn1").attr("src", "./img/person_1.png");
+    // $("#talk_icn1").attr("src", "./img/person_1.png");
     $("#talk_icn1").hide();
     $("#talk_icn1_icon").show();
     // $("#talk_icn2").attr("src", "./img/person_1.png");
@@ -144,7 +144,7 @@ $(".btn_chat").click(function () {
     $(".fa-whatsapp").css({ color: "gray", "border-color": "white" });
     $(".fa-envelope").css({ color: "#DE469C", "border-color": "#DE469C" });
 
-    $("#talk_icn1").attr("src", "./img/person_1.png");
+    // $("#talk_icn1").attr("src", "./img/person_1.png");
     $("#talk_icn1").show();
     $("#talk_icn1_icon").hide();
     // $("#talk_icn2").attr("src", "./img/person_1.png");
