@@ -225,7 +225,9 @@ $("#main-chat-btn").click(function () {
     click_time("hs_bot2");
     $("#talk_go").text("Herstart het gesprek 💬");
   } else if (channel_active == "wa_bot") {
-    channel_active = true;
+    // channel_active = true;
+    $("#main-chat-menu").hide();
+    channel_active = false;
     select_curr = false;
 
     $("#main-chat-btn-icon").addClass("fa-message");
