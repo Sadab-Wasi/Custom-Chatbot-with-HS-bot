@@ -87,7 +87,7 @@ $(".btn_chat").click(function () {
     // color icons
     // $(".icon1").css({ color: "#DE469C", "border-color": "#DE469C" });
     $(".icon1").css({ "border-color": "#DE469C" });
-    $("#icon1").css("background-image", "url(img/chat_2.png)");
+    $("#icon1").css("background-image", "url(https://25391713.fs1.hubspotusercontent-eu1.net/hubfs/25391713/chat_icon_pink.png)");
     $(".fa-whatsapp").css({ color: "gray", "border-color": "white" });
     $(".fa-envelope").css({ color: "gray", "border-color": "white" });
 
@@ -115,7 +115,7 @@ $(".btn_chat").click(function () {
     // color icons
     // $(".icon1").css({ color: "gray", "border-color": "white" });
     $(".icon1").css({ "border-color": "white" });
-    $("#icon1").css("background-image", "url(img/chat_1.png)");
+    $("#icon1").css("background-image", "url(https://25391713.fs1.hubspotusercontent-eu1.net/hubfs/25391713/chat_icon_grey.png)");
     $(".fa-whatsapp").css({ color: "#DE469C", "border-color": "#DE469C" });
     $(".fa-envelope").css({ color: "gray", "border-color": "white" });
 
@@ -140,7 +140,7 @@ $(".btn_chat").click(function () {
     // color icons
     // $(".icon1").css({ color: "gray", "border-color": "white" });
     $(".icon1").css({ "border-color": "white" });
-    $("#icon1").css("background-image", "url(img/chat_1.png)");
+    $("#icon1").css("background-image", "url(https://25391713.fs1.hubspotusercontent-eu1.net/hubfs/25391713/chat_icon_grey.png)");
     $(".fa-whatsapp").css({ color: "gray", "border-color": "white" });
     $(".fa-envelope").css({ color: "#DE469C", "border-color": "#DE469C" });
 
